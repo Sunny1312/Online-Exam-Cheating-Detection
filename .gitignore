@@ -1,0 +1,38 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Ignore virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore compiled code
+*.so
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore dataset and output videos (optional, if large)
+datasets/
+output/
+videos/
+
+# Ignore model weights (if any, like YOLO weights)
+*.pt
+*.pth
+*.onnx
